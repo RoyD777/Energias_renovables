@@ -13,7 +13,7 @@ para comparar la potencia útil de cada una y la potencia total combinada.
 
 # --- Hidroeléctrica ---
 st.header("Hidroeléctrica")
-st.image("hidro.png", caption="Represa hidroeléctrica", use_container_width=False, width=300)
+st.image("images/hidro.png", caption="Represa hidroeléctrica", use_container_width=False, width=300)
 pot_hidro = st.slider("Potencia instalada (MW)", 0, 100, 80, step=1, key="ph")
 ef_hidro = st.slider("Eficiencia de conversión (%)", 10, 100, 90, key="eh")
 turb = st.slider("Pérdidas por turbulencia (%)", 0, 20, 5, key="th")
@@ -23,7 +23,7 @@ energia_hidro = pot_hidro * eta_hidro
 
 # --- Solar ---
 st.header("Solar")
-st.image("solar.png", caption="Panel solar con inversor", use_container_width=False, width=300)
+st.image("images/solar.png", caption="Panel solar con inversor", use_container_width=False, width=300)
 pot_solar = st.slider("Potencia instalada (MW)", 0, 100, 30, step=1, key="ps")
 ef_solar = st.slider("Eficiencia de conversión (%)", 10, 25, 18, key="es")
 temp = st.slider("Pérdidas por temperatura (%)", 0, 20, 10, key="ts")
@@ -33,7 +33,7 @@ energia_solar = pot_solar * eta_solar
 
 # --- Eólica ---
 st.header("Eólica")
-st.image("eolica.png", caption="Aerogenerador", use_container_width=False, width=300)
+st.image("images/eolica.png", caption="Aerogenerador", use_container_width=False, width=300)
 pot_eolica = st.slider("Potencia instalada (MW)", 0, 100, 40, step=1, key="pe")
 ef_eolica = st.slider("Eficiencia de conversión (%)", 30, 50, 40, key="ee")
 aero = st.slider("Pérdidas aerodinámicas (%)", 0, 20, 8, key="ae")
