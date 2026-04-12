@@ -30,7 +30,8 @@ d. Explicar el impacto de las fuentes de energía en su aplicación científica,
 
 ## 📂 Contenido del curso
 
-- Análisis de eficiencia en sistemas de generación energética ( [Presentación en formato PDF]() )
+- Análisis de eficiencia en sistemas de generación energética: [Presentación en formato PDF]()
+
 ---
 
 
